@@ -15,6 +15,6 @@ for file in ${files}; do
 done;
 
 if [[ $failed != 0 ]] ; then
-  echo "🚫🚫🚫 ESLint failed, git commit denied!"
+  echo "ESLint failed, git commit denied!"
   exit $failed
 fi
